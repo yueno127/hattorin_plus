@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <script src="options.js">        
+    </script>
+</head>
+<style>
+    label[for]{display:block;}
+</style>
+<body>
+    <p>
+        <label for="username">ID</label>
+        <input class="form-element form-field" id="username" name="j_username" type="text" value="">
+        <label for="password">パスワード</label>
+        <input class="form-element form-field" id="password" name="j_password" type="password" value="">
+    </p>
+    <p>
+        <label for="shouldAutoLogin">自動ログイン</label>
+        <input type="checkbox" id="shouldAutoLogin">
+        <label for="shouldPreventTimeout">タイムアウト防止</label>
+        <input type="checkbox" id="shouldPreventTimeout">
+    </p>
+    <input type="button" id="save" value="設定を保存">
+</body>
+
+</html>
